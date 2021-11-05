@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0abead18-c2bc-4167-bb3e-b421d37576c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ECOM/.idea/ECOM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/ECOM/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/ECOM/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/ECOM/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/ECOM/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/ECOM/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/store/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/store/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/store/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/store/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/store/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/store/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/store/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/store/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/templates/store/card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/templates/store/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/templates/store/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECOM/templates/store/store.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam_Project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam_Project/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam_Project/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam_Project/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam_Project/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/.idea/Library.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/Library/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/Library/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/Library/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/Library/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/Library/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/Library/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/migrations/0002_rentbook_date_create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/migrations/0003_rentbook_note.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/migrations/0004_auto_20211024_0031.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/migrations/0005_bookcategory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/pagination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/books/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/books/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/books/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/books/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/books/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/books/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/books/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/books/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/templates/books/list.book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/.idea/ToDo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/api/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/api/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/api/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/api/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/api/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/config/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/config/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/config/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/config/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDo/manage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="20Bl7ZoX0DmiX73CkD0kisgS2XR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ToDo" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Exam_Project" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Exam_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0abead18-c2bc-4167-bb3e-b421d37576c5" name="Changes" comment="" />
+      <created>1635525695239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635525695239</updated>
+      <workItem from="1635525777590" duration="599000" />
+      <workItem from="1635529213669" duration="7787000" />
+      <workItem from="1635656051335" duration="991000" />
+      <workItem from="1635744838742" duration="3320000" />
+      <workItem from="1635749048040" duration="3892000" />
+      <workItem from="1635832946242" duration="994000" />
+      <workItem from="1635837921886" duration="1494000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+{% block content %}
+<h1>
+	Assalomu alaykum 
+	<div>
+		
+	</div>
+	<div>
+
+		{% for i in category %}
+				{{i.name}}
+				{{i.id}}
+		{% endfor %}
+	</div>
+
+</h1>
+{% endblock content  %}
