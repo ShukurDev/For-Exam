@@ -10,39 +10,18 @@ from .serializers import *
 
 
 # Create your views here.
-def console(request):
-    category = Category.objects.all()
-    # categoryid = category.name
-    # print(categoryid)
-    context = {
-        'category':category
-    }
-    return render(request,'index.html',context)
 
 @api_view(['GET'])
-def Productapi(request):
+def ProductAPI(request):
     product = Product.objects.all()
+
     serializer = ProductSerializer(product, many=True)
 
     return Response(serializer.data)
 
 
-class ResultListView(generics.ListAPIView):
-    queryset = Order.objects.all()
-    serializer_class = ProductitemSerializer
-
-@api_view(['GET'])
-def Result(request):
-    product_count = Productitem.quantity
-    product_pay = Productitem.get_total
-    serializer = ProductResult(product_pay,product_count,many=True)
-    if serializer.is_valid():
-        serializer.save()
-    return Response(serializer.data)
-
-
 @api_view(['GET','POST'])
-def createproduct(request):
+def CreateProductAPI(request):
 
     serializer = ProductSerializer(data=request.data)
     if serializer.is_valid():
@@ -51,34 +30,39 @@ def createproduct(request):
     return Response(serializer.data)
 
 
-@api_view(['POST'])
-def createdeliver(request):
-    if request.method == "POST":
-        serializer = DeliverSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
+@api_view(['GET','POST'])
+def CreateDeliverAPI(request):
 
-        return Response(serializer.data)
+    serializer = DeliverSerializer(data=request.data)
 
-
-@api_view(['POST'])
-def createproductitem(request):
-        serializer = ProductitemSerializer(data=request.data)
-
-        if serializer.is_valid():
-            serializer.save()
-
-        return Response(serializer.data)
+    if serializer.is_valid():
+        serializer.save()
+        
+    return Response(serializer.data)
 
 
-@api_view(['POST'])
-def createcategory(request):
-    if request.method == "POST":
-        serializer = CategorySerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
+@api_view(['GET','POST'])
+def CreateCategoryAPI(request):
+    
+    serializer = CategorySerializer(data=request.data)
+    
+    if serializer.is_valid():
+        serializer.save()
 
-        return Response(serializer.data)
+    return Response(serializer.data)
+
+
+@api_view(['GET','POST'])
+def CreateOrderAPI(request):
+    serializer = OrderSerializer(data=request.data)
+
+    if serializer.is_valid():
+        serializer.save()
+
+    return Response(serializer.data)
+
+
+
 # @api_view(['GET'])
 # def listcategory(request,pk):
 #     product = Productitem.objects.get(id=pk)
@@ -87,16 +71,29 @@ def createcategory(request):
 #     all_pay = Productitem.get_total
 #
 #
-@api_view(['GET'])
-def productitemlist(request,pk):
-    product = Product.objects.get(id=pk)
-    productitm = Order.objects.get(id=pk)
-    quantity = productitm.quantity
-    print(productitm.id)
+# @api_view(['GET'])
+# def productitemlist(request,pk):
+#     product = Product.objects.get(id=pk)
+#     productitm = Order.objects.get(id=pk)
+#     quantity = productitm.quantity
+#     print(productitm.id)
     
-    if quantity>0:
-        serializer = Productitm(productitm,many=True)
-        return Response(serializer.data)
-    else:
-        serializer = ProductSerializer(product,many=True)
-        return Response(serializer.data)
+#     if quantity>0:
+#         serializer = Productitm(productitm,many=True)
+#         return Response(serializer.data)
+#     else:
+#         serializer = ProductSerializer(product,many=True)
+#         return Response(serializer.data)
+# @api_view(['GET'])
+# def Result(request):
+#     product_count = Productitem.quantity
+#     product_pay = Productitem.get_total
+#     serializer = ProductResult(product_pay,product_count,many=True)
+#     if serializer.is_valid():
+#         serializer.save()
+#     return Response(serializer.data)
+
+
+class ResultListView(generics.ListAPIView):
+    queryset = Order.objects.all()
+    serializer_class = OrderSerializer

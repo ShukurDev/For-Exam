@@ -13,10 +13,10 @@ class ProductSerializer(serializers.ModelSerializer):
 #         product_count = serializers.IntegerField()
 #         product_pay = serializers.DecimalField(max_digits=20, decimal_places=0)
 
-class ProductitemSerializer(serializers.ModelSerializer):
+class OrderSerializer(serializers.ModelSerializer):
     class Meta:
         model = Order
-        fields =('quantity','get_total') # kerakli fieldlar
+        fields =('productid','quantity','deliver', 'base_price', 'price','get_total') # kerakli fieldlar
 
     def get_total(self, obj):
         
@@ -32,8 +32,5 @@ class DeliverSerializer(serializers.ModelSerializer):
     class Meta:
         model = Deliver
         fields = '__all__'
-class Productitm(serializers.ModelSerializer):
-    class Meta:
-        model = Order
-        fields = '__all__'
+
         

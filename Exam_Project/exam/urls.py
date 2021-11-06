@@ -7,16 +7,18 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('console/',views.console,name = 'console'),
 
-    path('list/',views.Productapi,name='list'),
-    path('createproductapi/',views.createproduct,name='createapi'),
-    path('createproductitem/',views.createproduct,name='createproductitem'),
-    path('createdeliver/',views.createproduct,name='createdeliver'),
-    path('createcategory/',views.createproduct,name='createcategory'),
+    path('ProductAPI',views.ProductAPI,name='ProductAPI'),
+
+    path('createproductapi/',views.CreateProductAPI,name='createproductapi'),
+    path('createdeliverapi/',views.CreateDeliverAPI,name='createdeliverapi'),
+    path('createcategoryapi/',views.CreateCategoryAPI,name='createcategoryapi'),
+    path('createorderapi/',views.CreateOrderAPI,name='createorderapi'),
+
+
     path('result/',views.ResultListView.as_view(),name='result'),
 
-    path('nesting/<str:pk>/', views.productitemlist,name='productitemlist'),
+    # path('nesting/<str:pk>/', views.productitemlist,name='productitemlist'),
     
 
 ]

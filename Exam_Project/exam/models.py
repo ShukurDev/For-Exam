@@ -14,7 +14,7 @@ class Category(models.Model):
 
 class Product(models.Model):
     name = models.CharField(max_length=100)
-    category = models.ForeignKey(Category, on_delete=models.CASCADE, null=True, blank=True)
+    categoryid = models.ForeignKey(Category, on_delete=models.CASCADE, null=True, blank=True)
     price = models.DecimalField(max_digits=50, decimal_places=2)
     description = models.TextField()
     barcode = models.CharField(max_length=100)
@@ -39,7 +39,7 @@ class Deliver(models.Model):
 
 
 class Order(models.Model):
-    product = models.ForeignKey(Product,related_name='orders' ,on_delete=models.CASCADE)
+    productid = models.ForeignKey(Product,related_name='orders' ,on_delete=models.CASCADE)
     quantity = models.IntegerField(null=True, blank=True)
     deliver = models.ForeignKey(Deliver, on_delete=models.CASCADE, null=True)
     base_price = models.DecimalField(max_digits=50, decimal_places=10)
@@ -47,8 +47,8 @@ class Order(models.Model):
     #expired = models.DateField()
     #created_at = models.DateTimeField(auto_now_add=True)
 
-    class Meta:
-        db_table = 'exam_order'
+    # class Meta:
+    #     db_table = 'exam_order'
 
     def get_total(self):
         total = self.price * self.quantity
