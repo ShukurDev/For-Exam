@@ -61,6 +61,28 @@ def CreateOrderAPI(request):
 
     return Response(serializer.data)
 
+@api_view(['GET'])
+def ProductResultAPI(request):
+    product = Order.objects.all()
+    serializer = OrderSerializer(product,many=True)
+
+    return Response(serializer.data)
+@api_view(['GET'])
+def DeliveredAPI(request):
+    product = Deliver.objects.all()
+    serializer =DeliverSerializer(product,many=True)
+
+    return Response(serializer.data)
+
+
+@api_view(['GET'])
+def ManyIncomeAPI(request):
+
+    order = Order.objects.all()
+    print(order)
+    serializer = ManyIncomeSerializer(order,many=True)
+
+    return Response(serializer.data)
 
 
 # @api_view(['GET'])
@@ -94,6 +116,6 @@ def CreateOrderAPI(request):
 #     return Response(serializer.data)
 
 
-class ResultListView(generics.ListAPIView):
-    queryset = Order.objects.all()
-    serializer_class = OrderSerializer
+# class ResultListView(generics.ListAPIView):
+#     queryset = Order.objects.all()
+#     serializer_class = OrderSerializer

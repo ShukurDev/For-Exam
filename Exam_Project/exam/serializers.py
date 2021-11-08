@@ -8,6 +8,7 @@ class ProductSerializer(serializers.ModelSerializer):
         model = Product
         fields = '__all__'
 
+
 # class ProductResult(serializers.ModelSerializer):
 #     class Meta:
 #         product_count = serializers.IntegerField()
@@ -16,11 +17,25 @@ class ProductSerializer(serializers.ModelSerializer):
 class OrderSerializer(serializers.ModelSerializer):
     class Meta:
         model = Order
-        fields =('productid','quantity','deliver', 'base_price', 'price','get_total') # kerakli fieldlar
+        fields = ('product','product_name', 'jami_soni','jami_summa')  # kerakli fieldlar
 
-    def get_total(self, obj):
-        
-        return obj.get_total
+    def product_name(self, obj):
+        return obj.product_name
+
+    def jami_summa(self, obj):
+        return obj.jami_summa
+
+class ManyIncomeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Order
+        fields = ['product','product_name','foyda']
+
+    def product_name(self, obj):
+        return obj.product_name
+
+    def foyda(self,obj):
+
+        return obj.foyda
 
 
 class CategorySerializer(serializers.ModelSerializer):
@@ -28,9 +43,24 @@ class CategorySerializer(serializers.ModelSerializer):
         model = Category
         fields = '__all__'
 
+# class OrderItem(serializers.ModelSerializer):
+#     class Meta:
+#         model =
+
 class DeliverSerializer(serializers.ModelSerializer):
     class Meta:
         model = Deliver
         fields = '__all__'
 
-        
+
+# class ProductAllSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = Product
+#         fields = ['name', 'total_product','total_summa']
+#
+#
+#     def total_product(self, obj):
+#         return obj.total_product
+#
+#     def total_summa(self, obj):
+#         return obj.total_summa

@@ -1,10 +1,13 @@
 
+from rest_framework.routers import DefaultRouter
 from django.urls import path
-
-
-# from views import ResultListView
-
 from . import views
+# router = DefaultRouter()
+# # from views import ResultListView
+# router.register('orders',views.ProductResultAPI,basename='orders')
+# router.register('category',views.ProductAPI,basename='category')
+# router.register('deliver',views.DeliveredAPI,basename='deliver')
+
 
 urlpatterns = [
 
@@ -15,10 +18,10 @@ urlpatterns = [
     path('createcategoryapi/',views.CreateCategoryAPI,name='createcategoryapi'),
     path('createorderapi/',views.CreateOrderAPI,name='createorderapi'),
 
+    path('productresultapi/',views.ProductResultAPI,name='productresultapi'),
 
-    path('result/',views.ResultListView.as_view(),name='result'),
-
+    path('manyincomeapi/',views.ManyIncomeAPI,name='manyincomeapi'),
     # path('nesting/<str:pk>/', views.productitemlist,name='productitemlist'),
-    
+
 
 ]
